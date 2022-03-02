@@ -64,7 +64,7 @@ while True:
         resultado = divisores()
         print(resultado)
         insertar(conexion,cursor,resultado[0],resultado[1])
-        input("Presione enter para continuar")
+#        input("Presione enter para continuar")
     elif opcion ==1:
         obtener(cursor)
         input("\n Presione enter para continuar")
