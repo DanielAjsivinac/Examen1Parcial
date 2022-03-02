@@ -26,7 +26,6 @@ def menu():
         print("ingrese un numero")
         print("presione para continuar")
 
-
 def conectar():
     try:
         conexion = psycopg2.connect(

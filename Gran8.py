@@ -57,7 +57,7 @@ while True:
             print(Dado2)
             suma = Dado1+Dado2
             if suma==8:
-                print("Ganar")
+                print("G")
                 jugar = False
             elif suma ==7:
                 print("Perder")
