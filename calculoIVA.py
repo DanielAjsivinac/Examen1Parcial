@@ -56,8 +56,8 @@ while True:
         opcion = menu()
     if opcion==0:
         resultado = IVA()
-        print("Precio sin IVA [Q]: "+str(resultado[1]))
-        print("IVA [Q]: "+str(resultado[2]))
+#        print("Precio sin IVA [Q]: "+str(resultado[1]))
+#        print("IVA [Q]: "+str(resultado[2]))
         insertar(conexion,cursor,resultado[0],resultado[1],resultado[2])
         input("\n Presione enter para continuar")
     elif opcion ==1:
