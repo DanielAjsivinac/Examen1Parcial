@@ -50,7 +50,7 @@ def eliminarOpciones(conexion, curs):
 while True:
     conexion= conectar()
     cursor = conexion.cursor()
-    calificaciones = [60, 75, 60, 65, 80]
+    calificaciones = [60, 70, 80, 90, 100]
     opcion = menu()
     while opcion==None:
         opcion= menu()
